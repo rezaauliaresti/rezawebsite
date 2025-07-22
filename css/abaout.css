@@ -1,0 +1,97 @@
+*{background-color: rgb(245, 70, 152);
+}
+h1 {
+   color: white;
+text-align: center;
+}
+
+p {
+font-family: verdana;
+font-size: 20px;
+color: rgb(0, 255, 174);
+}
+
+h2 {
+font-family: cambria;
+font-size: 15px;
+color: rgb(0, 255, 38);
+}
+
+blockquote {
+font-family: georgia;
+font-size:15px;
+font-style :italic;
+text-aligan:justify;
+color:blueviolet
+}
+
+.higligh {
+   color :rgb(226, 43, 202)
+}
+
+.tombol{
+   padding:12px 24px;
+   color:beige
+   background-color:bisque
+   border-none;
+   cursor- pointer;
+   border-radius:8px;
+   transition:background-color 0,3s;
+}
+
+.tombol:hover{
+   background-color:aqua;
+   transform:scale(1,1)
+}
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  height: 64px;
+  backdrop-filter: blur(16px);
+  background: rgba(30, 41, 59, 0.75);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: 900;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  background: linear-gradient(135deg, #6366f1 0%, #4ade80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #e2e8f0;
+  transition: background 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+  background: rgba(99, 102, 241, 0.3);
+}
+#profileImege {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px; /* Bisa disesuaikan ukurannya */
+    border-radius: 50%; /* Supaya terlihat bulat jika bentuknya persegi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan opsional */
+}
